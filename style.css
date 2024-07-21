@@ -832,6 +832,9 @@ span{
     .home-content h2{
         font-size: 3rem;
     }
+    .home-img img{
+        margin: 3rem 2rem;
+    }
 }
 
 /* Change Theme  */
