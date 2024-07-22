@@ -810,6 +810,12 @@ span{
     }
 }
 
+@media (max-width:550px){
+    .heading{
+        font-size: 3.1rem;
+    }
+}
+
 @media (max-width: 520px){
     .header .navbar ul li a{
         font-size: 1.1rem;
