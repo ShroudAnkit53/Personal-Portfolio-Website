@@ -605,6 +605,15 @@ span{
     background-color: #232020;
 }
 
+.contact .about-content p a{
+    color: #06e581;
+    transition: color 0.5s ease;
+}
+
+.contact .about-content p a:hover{
+    color: #1ae404;
+}
+
 /* Footer Section  */
 .footer{
     position: relative;
