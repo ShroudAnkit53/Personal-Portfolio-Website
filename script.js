@@ -41,3 +41,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
         document.body.classList.toggle('light-mode');
     });
 });
+
+// Download Resume 
+document.getElementById('downloadBtn').addEventListener('click', function (event) {
+    event.preventDefault(); // Prevent the default link behavior
+
+    // Specify the URL of the PDF file
+    const pdfUrl = "Ankit's Resume.pdf";
+
+    // Create an invisible anchor element
+    const a = document.createElement('a');
+    a.href = pdfUrl;
+    a.download = 'Ankit Portfolio and Resume.pdf'; // Optional: specify the file name for download
+    document.body.appendChild(a);
+    a.click(); // Trigger the download
+    document.body.removeChild(a); // Remove the anchor from the DOM
+});
