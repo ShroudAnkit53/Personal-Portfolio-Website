@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Portfolio website of Ankit Kumar Sahoo, showcasing skills, projects, and contact information.">
+    <meta name="keywords" content="Ankit, portfolio, frontend developer, Python, Java, web development">
+
+    <title>Portfolio Website | Ankit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/coder-photoaidcom-cropped.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <i class="fa-solid fa-spinner"></i>
+            <h2>Loading<span class="dots"></span></h2>
+        </div>
+    </div>
+
+    <!-- Header  -->
+    <header class="header">
+        <a href="" class="logo" style="font-family: Playwrite US Trad, cursive;"><i class="fa-solid fa-code"
+                style="margin-right: 1.2rem; font-size: 2rem;"></i>My Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="" id="mode-toggle"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2>Hii, I'm</h2>
+            <h2 style="color: #1ae404;">Ankit Kumar Sahoo</h2>
+            <h3>I'm <span id="element"></span></h3>
+            <p>Experience in Frontend Development(HTML, CSS & JavaScript). Also have the passion of learning Python and
+                also using its Libraries.</p>
+
+            <div class="social-icon">
+                <a href="https://www.instagram.com/_.iamankitttt._/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100088206488676"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/ankit-kumar-sahoo-9015b9271/"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/AnkitSa74725194"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/ShroudAnkit53"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <a href="#about" class="btn">About Me <i class="fa-solid fa-circle-chevron-down"></i></a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/profile.jpeg" alt="">
+        </div>
+    </section>
+
+    <!-- About Section  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/aboutpic.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>I am a Frontend Developer based in Bhubaneswar, India. <br /><br /> I am a CSIT undergraduate from ITER
+                SOA. <br /><br /> I am very
+                passionate about improving my coding skills & developing applications websites. <br /><br /> I have the
+                experience in
+                HTML,CSS & JavaScript. Also I have passionate about learning Python & Java. <br /><br /> Also my hobbies
+                are playing outdoor games like Kabaddi, Cricket, Football etc. & also intrested in video games like
+                FIFA, Fall Guys etc.</p>
+            <a href="Ankit's Resume.pdf" class="btn">View Resume <i class="fa-solid fa-circle-chevron-right"></i></a>
+            <a href="" class="btn" style="background: rgb(22, 21, 21); color:#1ae404; margin-left: 20px;"
+                id="downloadBtn">Download PDF <i class="fa-solid fa-circle-chevron-right"></i></a>
+        </div>
+    </section>
+
+    <!-- Timeline 1 section  -->
+    <section class="timeline-section" id="timeline">
+        <h2 class="heading">Timeline :- <span style="color: #1ae404;">Education</span></h2>
+
+        <div class="timeline-items">
+            <!-- Timeline 1 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2010 - 2014</div>
+                <div class="timeline-content">
+                    <h3>Kendriya Vidyalaya Jagdalpur</h3>
+                    <p>Class 1 to 5 <br /> I have spent my first 5 years of Schooling at Jagdalpur, Chattisgarh</p>
+                </div>
+            </div>
+            <!-- Timeline 2 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2014 - 2016</div>
+                <div class="timeline-content">
+                    <h3>Kendriya Vidyalaya Koraput</h3>
+                    <p>Class 5 to 7 <br /> I have spent my 2 years of Schooling at Koraput, Odisha</p>
+                </div>
+            </div>
+            <!-- Timeline 3 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2016 - 2022</div>
+                <div class="timeline-content">
+                    <h3>Kendriya Vidyalaya No.3 Bhubaneswar</h3>
+                    <p>Class 7 to 12 <br /> I have spent my last 5 years of Schooling at Bhubaneswar, Odisha. Also gave
+                        10th and 12th Board here.</p>
+                </div>
+            </div>
+            <!-- Timeline 4 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 - present</div>
+                <div class="timeline-content">
+                    <h3>ITER, Siksha 'O' Anusandhan</h3>
+                    <p>Now I will be in 3rd year at this college.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="heading" style="margin-top: 4rem;">Timeline :- <span>Experience</span></h2>
+
+        <div class="timeline-items">
+            <!-- Timeline 1 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">15 Jun 2024 - 15 Jul 2024</div>
+                <div class="timeline-content">
+                    <h3>Web Dev Internship</h3>
+                    <p>I have done my first internship which is Web Development Internship at Prodigy Infotech. Gained
+                        knowledge of HTML,CSS & JS</p>
+                </div>
+            </div>
+            <!-- Timeline 2 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Coming Soon...</div>
+                <div class="timeline-content">
+                    <h3>Coming Soon...</h3>
+                    <p>Coming Soon!!!</p>
+                </div>
+            </div>
+            <!-- Timeline 3 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Coming Soon...</div>
+                <div class="timeline-content">
+                    <h3>Coming Soon...</h3>
+                    <p>Coming Soon!!!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section  -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span style="color: #1ae404;">Services</span></h2>
+
+        <div class="services-content">
+            <div class="box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius consequuntur, repudiandae.</p>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius consequuntur, repudiandae.</p>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java Learner</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius consequuntur, repudiandae.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Learnt <span>Skills & Tools</span></h2>
+        <div class="skills-container">
+            <div class="skill-item"><i class="fa-brands fa-html5"
+                    style="margin-right: 1.2rem; font-size: 2.8rem;"></i>HTML</div>
+            <div class="skill-item"><i class="fa-brands fa-css3-alt"
+                    style="margin-right: 1.2rem; font-size: 2.8rem;"></i>CSS</div>
+            <div class="skill-item"><i class="fa-brands fa-square-js"
+                    style="margin-right: 1.2rem; font-size: 2.8rem;"></i>JavaScript</div>
+            <div class="skill-item"><i class="fa-brands fa-python"
+                    style="margin-right: 1.2rem; font-size: 2.8rem;"></i>Python</div>
+            <div class="skill-item"><i class="fa-brands fa-php" style="margin-right: 1.2rem; font-size: 2.8rem;"></i>PHP
+            </div>
+            <div class="skill-item"><i class="fa-solid fa-database"
+                    style="margin-right: 1.2rem; font-size: 2.8rem;"></i>MySQL</div>
+            <div class="skill-item"><i class="fa-brands fa-c" style="margin-right: 1.2rem; font-size: 2.8rem;"></i>C
+            </div>
+            <div class="skill-item"><i class="fa-brands fa-react"
+                    style="margin-right: 1.2rem; font-size: 2.8rem;"></i>React</div>
+            <div class="skill-item"><i class="fa-brands fa-java"
+                    style="margin-right: 1.2rem; font-size: 2.8rem;"></i>Java</div>
+            <div class="skill-item"><i class="fa-solid fa-code-branch"
+                    style="margin-right: 1.2rem; font-size: 2.8rem;"></i>DSA</div>
+            <div class="skill-item"><i class="fa-brands fa-github"
+                    style="margin-right: 1.2rem; font-size: 2.8rem;"></i>GitHub</div>
+            <div class="skill-item"><i class="fa-solid fa-code" style="margin-right: 1.2rem; font-size: 2.8rem;"></i>VS
+                Code</div>
+        </div>
+
+        <h2 class="heading" style="margin-top: 4rem;"><span style="color: #1ae404;">Projects</span></h2>
+
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="images/chat-application.jpeg" alt="">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Simple Chat Application</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href="https://github.com/ShroudAnkit53/Simple-Chat-Application-Website"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <h4>Made this Using HTML,CSS,JS,PHP & MySQL</h4>
+            </div>
+
+            <div class="row">
+                <img src="images/weather-app.jpeg" alt="">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Weather App</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a
+                            href="https://github.com/ShroudAnkit53/Coding-Projects/blob/main/Weather%20App%20using%20APIs(Web%20Dev%20Project)"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <h4>Weather App using HTML,CSS & JS</h4>
+            </div>
+
+            <div class="row">
+                <img src="images/youtube-clone.jpeg" alt="">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Youtube Clone</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a
+                            href="https://github.com/ShroudAnkit53/Coding-Projects/blob/main/Youtube%20Clone(Web%20Dev%20Project)"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <h4>Youtube Clone using HTML,CSS & JS</h4>
+            </div>
+
+            <div class="row">
+                <img src="images/jarvis.jpeg" alt="">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>J.A.R.V.I.S</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a
+                            href="https://github.com/ShroudAnkit53/Coding-Projects/blob/main/J.A.R.V.I.S%20A.I%20(Python%20Project)"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <h4>Desktop Assistant using Python </h4>
+            </div>
+        </div>
+        <a href="project.html" class="btn" style="margin-top: 4rem;">View All Projects <i
+                class="fa-solid fa-circle-chevron-right"></i></a>
+    </section>
+
+    <!-- About Section  -->
+    <section class="contact" id="contact">
+        <div class="about-img">
+            <img src="images/coder.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <p>Below I have given my Contact Number and Email ID :-</p>
+            <p>Contact Number :- <a href="tel:+917735734826">7735734826</a></p>
+            <p>Email Address: <a href="mailto:ankitomm4040@gmail.com">ankitomm4040@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer Section  -->
+    <footer class="footer">
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100088206488676"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/AnkitSa74725194"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/_.iamankitttt._/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ankit-kumar-sahoo-9015b9271/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <p class="copyright">
+            &copy; Ankit | All Copyrights Reserved
+        </p>
+    </footer>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Javascript  -->
+    <script src="script.js"></script>
+
+    <!-- Visibility change  -->
+    <script>
+        document.addEventListener('visibilitychange', function () {
+            if (document.visibilityState === 'visible') {
+                document.title = 'Portfolio Website | Ankit';
+            } else {
+                document.title = 'Come back to Portfolio';
+            }
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const loadingScreen = document.getElementById("loading-screen");
+        
+            // Set a timeout to hide the loading screen
+            setTimeout(() => {
+                loadingScreen.classList.add("hidden");
+            }, 6000); // 6000ms = 6 seconds (adjust as needed)
+        });
+        
+    </script>
+</body>
+
+</html>
